@@ -13,3 +13,10 @@ Search Tree:
 | 1  | 3 | log2(3) = 1 |
 | 2  | 7  | log2(7) = 2  |
 | 3  | 15 | log2(15) = 3   |
+
+Reverse Linked List:
+   - Linked list: [{value, key} ...]
+   - Reversing [1,2,3] => [3,2,1]
+   - Algorithm used: => head.next.next: if head is [1] then next.next => [2,1] and head.next = none
+   - The complexity of the algorithm is O(n) since we pass through the whole linked list and its elements.
+   
