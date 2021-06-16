@@ -3,7 +3,8 @@
 
 Search Tree:
   - is Binary search tree algorithm (written in python)
-  - => log(n)
+  - Time complexity => O(log(n)) [as it divides search in sub trees - root and it's 2 children]
+  - Space complexity => O(n) [as n is number of nodes]
   - The search algorithm depends on the height of the tree, unless in worst case it's only one branch of the tree, it makes 
   the complexity of the algorithm O(n)
 
@@ -18,5 +19,5 @@ Reverse Linked List:
    - Linked list: [{value, next} ...]
    - Reversing [1,2,3] => [3,2,1]
    - Algorithm used: => head.next.next: if head is [1] then next.next => [2,1] and head.next = none
-   - The complexity of the algorithm is O(n) since we pass through the whole linked list and its elements.
+   - The time and space complexity of the algorithm is O(n) since we should pass through the whole linked list and its elements + it stores all the nodes of the        list.
    
