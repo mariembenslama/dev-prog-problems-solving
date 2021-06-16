@@ -21,3 +21,8 @@ Reverse Linked List:
    - Algorithm used: => head.next.next: if head is [1] then next.next => [2,1] and head.next = none
    - The time and space complexity of the algorithm is O(n) since we should pass through the whole linked list and its elements + it stores all the nodes of the        list.
    
+Max Element Stack:
+   - 2 arrays: stack, maxes
+   - Stack has all elements, maxes has only max value per push
+   - Last element of maxes contains the max element of the stack
+   - Time and space complexity are both O(n): since we check all the stack and we store all elements, since having 2 arrays means double instruction O(2n) -> O(const * n) -> O(n)
