@@ -40,3 +40,11 @@ Adjacent List (Graph):
       7. Print can Finish: True  if 6. Has happened
    - Space Complexity is O(n) since we need to store all nodes
    - Time complexity is O(n^2) since program should visit all nodes and all of their connected neighboors
+
+Find Pythagorean Triplets:
+   - Find in an array of numbers, which combination is a2 + b^2 = c^3
+   - Algorithm used: 
+      1. Use a temp array to store the square of each element of the array
+      2. Check each array's numbers which combination of a and b respects the formula
+   - Time complexity is O(n^2) since we check new array's element with all other elements of the array
+   - Space complexity is O(n) since we store all elements (2 arrays => O(2n) => O(const * n) => O(n))
