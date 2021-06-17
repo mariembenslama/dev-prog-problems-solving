@@ -42,7 +42,7 @@ Adjacent List (Graph):
    - Time complexity is O(n^2) since program should visit all nodes and all of their connected neighboors
 
 Find Pythagorean Triplets:
-   - Find in an array of numbers, which combination is a2 + b^2 = c^3
+   - Find in an array of numbers, which combination is a^2 + b^2 = c^2
    - Algorithm used: 
       1. Use a temp array to store the square of each element of the array
       2. Check each array's numbers which combination of a and b respects the formula
