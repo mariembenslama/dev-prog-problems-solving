@@ -48,3 +48,11 @@ Find Pythagorean Triplets:
       2. Check each array's numbers which combination of a and b respects the formula
    - Time complexity is O(n^2) since we check new array's element with all other elements of the array
    - Space complexity is O(n) since we store all elements (2 arrays => O(2n) => O(const * n) => O(n))
+
+Find longest increasing subsequence:
+   - Find the longest subsequence increasing in an array
+   - Algorithm used: 
+      1. Used a cache array, calculated in in the longest subsequence at current position than myself position
+      2. Get the maximum from the cache
+   - Time complexity is O(n^2) since we check the position and all the elements behind the myself position
+   - Space complexity is O(n) since we store all elements (2 arrays => O(2n) => O(const * n) => O(n))
